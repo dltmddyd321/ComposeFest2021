@@ -27,7 +27,7 @@ import com.codelab.theming.R
 /**
  * https://fonts.google.com/specimen/Montserrat
  */
-private val Montserrat = FontFamily(
+val Montserrat = FontFamily(
     Font(R.font.montserrat_regular),
     Font(R.font.montserrat_medium, FontWeight.W500),
     Font(R.font.montserrat_semibold, FontWeight.W600)
@@ -36,7 +36,7 @@ private val Montserrat = FontFamily(
 /**
  * https://fonts.google.com/specimen/Domine
  */
-private val Domine = FontFamily(
+val Domine = FontFamily(
     Font(R.font.domine_regular),
     Font(R.font.domine_bold, FontWeight.Bold)
 )
